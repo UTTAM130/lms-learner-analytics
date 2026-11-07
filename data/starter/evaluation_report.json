@@ -1,0 +1,119 @@
+{
+ "ground_truth_rows": 2536,
+ "detectors": {
+  "duplicate_event": {
+   "tp": 1596,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "labelled": 1596,
+   "flagged": 1596
+  },
+  "activity_unenrolled": {
+   "tp": 387,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "labelled": 387,
+   "flagged": 387,
+   "by_subtype": {
+    "before_enrollment": 1.0,
+    "never_enrolled": 1.0
+   }
+  },
+  "timezone_shift": {
+   "tp": 351,
+   "fp": 0,
+   "fn": 36,
+   "precision": 1.0,
+   "recall": 0.907,
+   "f1": 0.9512,
+   "labelled": 387,
+   "flagged": 351,
+   "recall_offset_missing": 0.9067,
+   "recall_offset_present": 0.9074,
+   "recall_online_platforms": 1.0,
+   "recall_offline_sync_platform": 0.0,
+   "labelled_on_offline_sync": 36,
+   "corrected_date_matches_truth": 1.0
+  },
+  "completion_before_required_assessment": {
+   "tp": 166,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "labelled": 166,
+   "flagged": 166,
+   "by_subtype": {
+    "required_assessment_not_passed": {
+     "labelled": 95,
+     "recall": 1.0
+    },
+    "required_assessment_passed_later": {
+     "labelled": 71,
+     "recall": 1.0
+    }
+   }
+  }
+ },
+ "integrity": {
+  "event_labels_found_in_events": true,
+  "enrollment_labels_found_in_enrollments": true,
+  "ground_truth_id_unique": true,
+  "labelled_records_unique": true
+ },
+ "impact": {
+  "events_delivered": 98702,
+  "duplicate_rows": 1596,
+  "duplicate_share": 0.01617,
+  "orphan_or_pre_enrollment_events": 387,
+  "events_valid_for_metrics": 96719,
+  "premature_completions_in_platform_marks": 166,
+  "completions_by_platform_mark": 830,
+  "completions_by_rule": 735,
+  "completion_rate_overstatement_pct": 12.925
+ },
+ "ground_truth_counts": [
+  {
+   "issue_type": "activity_unenrolled",
+   "subtype": "before_enrollment",
+   "rows": 116
+  },
+  {
+   "issue_type": "activity_unenrolled",
+   "subtype": "never_enrolled",
+   "rows": 271
+  },
+  {
+   "issue_type": "completion_before_required_assessment",
+   "subtype": "required_assessment_not_passed",
+   "rows": 95
+  },
+  {
+   "issue_type": "completion_before_required_assessment",
+   "subtype": "required_assessment_passed_later",
+   "rows": 71
+  },
+  {
+   "issue_type": "duplicate_event",
+   "subtype": "retry_duplicate",
+   "rows": 1596
+  },
+  {
+   "issue_type": "timezone_shift",
+   "subtype": "offset_missing",
+   "rows": 225
+  },
+  {
+   "issue_type": "timezone_shift",
+   "subtype": "offset_present",
+   "rows": 162
+  }
+ ]
+}

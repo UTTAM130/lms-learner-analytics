@@ -1,0 +1,146 @@
+{
+  "generator": "lms_synth",
+  "generator_version": "1.0.0",
+  "seed": 20261022,
+  "scale": {
+    "name": "starter",
+    "learners": 1000,
+    "courses": 40,
+    "enrollments": 5000
+  },
+  "chunk_size": 10000,
+  "as_of_utc": "2026-10-31T00:00:00Z",
+  "row_counts": {
+    "learners": 1000,
+    "courses": 40,
+    "content_items": 749,
+    "assessments": 234,
+    "completion_rules": 80,
+    "cohorts": 223,
+    "enrollments": 5000,
+    "enrollment_status_history": 11525,
+    "attempts": 14612,
+    "activity_events": 98702,
+    "course_outcomes": 5000
+  },
+  "anomaly_counts": {
+    "n_baseline": 96719,
+    "n_dup": 1596,
+    "n_tz": 387,
+    "n_unen_never": 271,
+    "n_unen_before": 116,
+    "n_attempts": 14612,
+    "n_prem_a": 95,
+    "n_prem_b": 71
+  },
+  "command": "python -m lms_synth generate --scale starter --seed 20261022 --out data/starter",
+  "environment": {
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "external_data": "none - fully synthetic; no third-party datasets, no personal data",
+  "files": {
+    "activity_events.csv": {
+      "bytes": 19466389,
+      "sha256": "e380b5f523f1a3c08d2bb67969f0bea24e3d6ebac6a57e53bcd6e32de739a083",
+      "rows": 98702
+    },
+    "assessments.csv": {
+      "bytes": 15580,
+      "sha256": "7c78028e1cc697924734db3de6eb0379fb578f53e3f5877eff2ad56d7cc537ed",
+      "rows": 234
+    },
+    "assessments.json": {
+      "bytes": 63423,
+      "sha256": "637fb7d1a59deb24dc7661c247242b42ed7732acc1f2cdc6977d1905c684c27b",
+      "rows": null
+    },
+    "attempts.csv": {
+      "bytes": 2194503,
+      "sha256": "a599c8c3a4b5a23321dd9b3cafcad573cdb126e15ecff694cf4c859d7d4f0910",
+      "rows": 14612
+    },
+    "cohorts.csv": {
+      "bytes": 17956,
+      "sha256": "a9565217e6136dcf1b854f39e017e216b42cabfbf92dbffa2943ab67ed0d5f01",
+      "rows": 223
+    },
+    "cohorts.json": {
+      "bytes": 55767,
+      "sha256": "bfdabf28b12b873014167b9c49413427eb23c2452d7abeda23bc923ab2721133",
+      "rows": null
+    },
+    "completion_rules.csv": {
+      "bytes": 5485,
+      "sha256": "8aa58dee96e7d965d0652730d7b9bb436c8542f7670468c3e1a0c6d48e7fb2e9",
+      "rows": 80
+    },
+    "completion_rules.json": {
+      "bytes": 20322,
+      "sha256": "0e9101f812d455ffc8db64dde0a87c9c53796bb5114c1f02e87cc3f68015ead4",
+      "rows": null
+    },
+    "content_items.csv": {
+      "bytes": 46845,
+      "sha256": "cdc9487b8882012bbb48f3ead3412325bedabbf679bd7902b83d28d04cd84df2",
+      "rows": 749
+    },
+    "content_items.json": {
+      "bytes": 187547,
+      "sha256": "df65333f8041632d5978155a6bbd3ded7b6f2db13a5f3babec846ff93ad9028f",
+      "rows": null
+    },
+    "course_outcomes.csv": {
+      "bytes": 681704,
+      "sha256": "ed556365d205f5f9e1e21715eeda48574b1e4415eb49e6e9edd2423f804d9c03",
+      "rows": 5000
+    },
+    "courses.csv": {
+      "bytes": 4416,
+      "sha256": "101ecea7fbfff0cdff143b423a84219d3befab95c7665a690bc1c6bce83f6604",
+      "rows": 40
+    },
+    "courses.json": {
+      "bytes": 13127,
+      "sha256": "c872e04291b76eac24a6233eef9005b754a831e1da357200999cf271cacb6a86",
+      "rows": null
+    },
+    "enrollment_status_history.csv": {
+      "bytes": 1162249,
+      "sha256": "fb963b96466c98d732c30962106e63711bd16b2231e77ba811dc4b4bc324ac2d",
+      "rows": 11525
+    },
+    "enrollments.csv": {
+      "bytes": 601443,
+      "sha256": "05dc7b88166576f8624ebae38a76bcc0891de270ec273be437c7f2ccfc3349e8",
+      "rows": 5000
+    },
+    "learners.csv": {
+      "bytes": 58615,
+      "sha256": "f4858f5da1c31c8b6c4cbe89a762fbc0b1f44812c94a88aa140d569dc523962d",
+      "rows": 1000
+    },
+    "learners.json": {
+      "bytes": 213518,
+      "sha256": "fc62b5be4e583ff0af82a126b259c10e927ce5cc3ba21440c19de91a7edb8a1f",
+      "rows": null
+    },
+    "ground_truth/ground_truth.csv": {
+      "bytes": 504786,
+      "sha256": "d53355fbf127391d12b911085c98b655e56158d443adfef9c0befb0aadbbcff7",
+      "rows": null
+    },
+    "ground_truth/ground_truth.json": {
+      "bytes": 981437,
+      "sha256": "f263e28fbdc12f2a5bf499f0d00d6fb190ca60caa106b8412121c596236e52e7",
+      "rows": null
+    },
+    "ground_truth/ground_truth_learners.csv": {
+      "bytes": 33827,
+      "sha256": "4c71be6106c2d73c1c99bf1dc8cdfa11f87459a6d49c207e4f0dbd6abfe4a7e0",
+      "rows": null
+    }
+  },
+  "generation_seconds": 1.1
+}

@@ -1,0 +1,501 @@
+course_id,title,category,level,duration_weeks,cohorts,enrollments,closed_enrollments,completed,withdrawn,completion_rate
+CRS-000001,Negotiation Skills - Beginner,Business,beginner,6,7,153,111.0,33.0,18.0,0.2973
+CRS-000002,Business Writing - Beginner,Business,beginner,8,7,466,76.0,11.0,12.0,0.1447
+CRS-000003,Health Policy - Beginner,Health,beginner,6,5,148,59.0,21.0,8.0,0.3559
+CRS-000004,Accessibility - Advanced,Design,advanced,8,4,246,0.0,0.0,0.0,
+CRS-000005,Calculus Review - Beginner,Mathematics,beginner,6,5,158,68.0,21.0,16.0,0.3088
+CRS-000006,Mandarin Basics - Beginner,Languages,beginner,6,4,127,71.0,26.0,10.0,0.3662
+CRS-000007,Technical Writing - Intermediate,Languages,intermediate,10,8,153,61.0,18.0,7.0,0.2951
+CRS-000008,Financial Modelling - Intermediate,Finance,intermediate,6,5,106,85.0,12.0,16.0,0.1412
+CRS-000009,Numerical Methods - Intermediate,Mathematics,intermediate,8,7,102,47.0,9.0,10.0,0.1915
+CRS-000010,Financial Modelling - Beginner,Finance,beginner,6,3,157,108.0,25.0,21.0,0.2315
+CRS-000011,Mandarin Basics - Beginner,Languages,beginner,6,6,110,93.0,34.0,10.0,0.3656
+CRS-000012,Applied Forecasting - Beginner,Data Science,beginner,8,4,127,99.0,30.0,20.0,0.303
+CRS-000013,Mental Health First Aid - Intermediate,Health,intermediate,8,8,100,14.0,4.0,2.0,0.2857
+CRS-000014,German for Beginners - Intermediate,Languages,intermediate,6,4,95,47.0,5.0,9.0,0.1064
+CRS-000015,Visual Communication - Advanced,Design,advanced,10,7,89,56.0,9.0,9.0,0.1607
+CRS-000016,Public Health Basics - Beginner,Health,beginner,8,4,99,47.0,12.0,7.0,0.2553
+CRS-000017,Nutrition Science - Intermediate,Health,intermediate,6,7,564,230.0,54.0,50.0,0.2348
+CRS-000018,Personal Investing - Beginner,Finance,beginner,12,6,151,58.0,9.0,11.0,0.1552
+CRS-000019,Spanish Conversation - Intermediate,Languages,intermediate,8,5,121,94.0,26.0,16.0,0.2766
+CRS-000020,Web Development - Beginner,Software Engineering,beginner,6,4,236,106.0,38.0,18.0,0.3585
+CRS-000021,Discrete Mathematics - Advanced,Mathematics,advanced,8,3,122,122.0,18.0,31.0,0.1475
+CRS-000022,Health Policy - Intermediate,Health,intermediate,12,3,194,66.0,16.0,12.0,0.2424
+CRS-000023,SQL for Analysts - Intermediate,Data Science,intermediate,10,7,106,66.0,15.0,17.0,0.2273
+CRS-000024,Mental Health First Aid - Beginner,Health,beginner,8,8,95,83.0,19.0,21.0,0.2289
+CRS-000025,Spanish Conversation - Intermediate,Languages,intermediate,8,7,111,79.0,14.0,15.0,0.1772
+CRS-000026,Interface Design - Beginner,Design,beginner,6,5,114,91.0,33.0,14.0,0.3626
+CRS-000027,Design Systems - Beginner,Design,beginner,6,5,110,66.0,20.0,8.0,0.303
+CRS-000028,Technical Writing - Beginner,Languages,beginner,8,8,366,185.0,61.0,25.0,0.3297
+CRS-000029,Biostatistics - Intermediate,Health,intermediate,12,4,322,246.0,59.0,45.0,0.2398
+CRS-000030,UX Research - Advanced,Design,advanced,8,3,396,273.0,47.0,53.0,0.1722
+CRS-000031,Prototyping - Intermediate,Design,intermediate,8,7,85,32.0,9.0,5.0,0.2812
+CRS-000032,Corporate Finance - Beginner,Finance,beginner,12,7,388,114.0,33.0,28.0,0.2895
+CRS-000033,Clinical Informatics - Intermediate,Health,intermediate,6,8,332,83.0,21.0,20.0,0.253
+CRS-000034,Biostatistics - Intermediate,Health,intermediate,4,8,162,91.0,31.0,12.0,0.3407
+CRS-000035,Nutrition Science - Intermediate,Health,intermediate,6,6,934,626.0,136.0,112.0,0.2173
+CRS-000036,Public Health Basics - Beginner,Health,beginner,12,3,87,42.0,9.0,12.0,0.2143
+CRS-000037,Financial Modelling - Beginner,Finance,beginner,6,3,169,169.0,53.0,32.0,0.3136
+CRS-000038,Technical Writing - Advanced,Languages,advanced,8,7,221,54.0,10.0,12.0,0.1852
+CRS-000039,Python Programming - Intermediate,Software Engineering,intermediate,10,3,130,52.0,11.0,10.0,0.2115
+CRS-000040,Interface Design - Beginner,Design,beginner,6,6,130,72.0,20.0,12.0,0.2778
+CRS-000041,Mandarin Basics - Beginner,Languages,beginner,8,6,86,53.0,13.0,14.0,0.2453
+CRS-000042,Linear Algebra - Intermediate,Mathematics,intermediate,10,4,233,121.0,30.0,20.0,0.2479
+CRS-000043,Optimisation - Intermediate,Mathematics,intermediate,10,3,92,65.0,19.0,10.0,0.2923
+CRS-000044,APIs and Microservices - Intermediate,Software Engineering,intermediate,12,5,213,54.0,8.0,11.0,0.1481
+CRS-000045,Biostatistics - Beginner,Health,beginner,10,5,130,85.0,30.0,12.0,0.3529
+CRS-000046,Statistics Foundations - Beginner,Data Science,beginner,6,4,160,160.0,44.0,28.0,0.275
+CRS-000047,Machine Learning - Advanced,Data Science,advanced,4,7,103,34.0,3.0,4.0,0.0882
+CRS-000048,Business English - Intermediate,Languages,intermediate,8,5,106,87.0,35.0,12.0,0.4023
+CRS-000049,SQL for Analysts - Intermediate,Data Science,intermediate,6,8,145,87.0,22.0,17.0,0.2529
+CRS-000050,Software Testing - Advanced,Software Engineering,advanced,8,7,96,56.0,5.0,17.0,0.0893
+CRS-000051,Linear Algebra - Advanced,Mathematics,advanced,4,3,159,106.0,10.0,17.0,0.0943
+CRS-000052,Design Systems - Beginner,Design,beginner,10,6,85,9.0,5.0,1.0,0.5556
+CRS-000053,Data Visualisation - Intermediate,Data Science,intermediate,4,6,125,85.0,19.0,16.0,0.2235
+CRS-000054,Clinical Informatics - Advanced,Health,advanced,8,3,114,114.0,20.0,24.0,0.1754
+CRS-000055,Personal Investing - Beginner,Finance,beginner,12,6,89,48.0,13.0,6.0,0.2708
+CRS-000056,Statistics Foundations - Intermediate,Data Science,intermediate,6,4,132,37.0,3.0,8.0,0.0811
+CRS-000057,Discrete Mathematics - Intermediate,Mathematics,intermediate,6,7,86,75.0,14.0,12.0,0.1867
+CRS-000058,Public Health Basics - Intermediate,Health,intermediate,8,4,241,241.0,58.0,54.0,0.2407
+CRS-000059,Discrete Mathematics - Beginner,Mathematics,beginner,10,3,122,43.0,21.0,6.0,0.4884
+CRS-000060,Accounting Basics - Beginner,Finance,beginner,8,8,111,101.0,25.0,13.0,0.2475
+CRS-000061,Linear Algebra - Intermediate,Mathematics,intermediate,4,6,137,47.0,14.0,12.0,0.2979
+CRS-000062,Accounting Basics - Intermediate,Finance,intermediate,8,5,269,0.0,0.0,0.0,
+CRS-000063,Statistics Foundations - Intermediate,Data Science,intermediate,12,8,171,39.0,11.0,4.0,0.2821
+CRS-000064,Cloud Fundamentals - Beginner,Software Engineering,beginner,10,5,2146,424.0,103.0,90.0,0.2429
+CRS-000065,Public Health Basics - Intermediate,Health,intermediate,12,6,118,56.0,11.0,16.0,0.1964
+CRS-000066,Statistics Foundations - Advanced,Data Science,advanced,12,4,114,56.0,11.0,10.0,0.1964
+CRS-000067,Accounting Basics - Advanced,Finance,advanced,8,4,290,220.0,33.0,40.0,0.15
+CRS-000068,Nutrition Science - Beginner,Health,beginner,6,3,176,176.0,42.0,38.0,0.2386
+CRS-000069,Prototyping - Advanced,Design,advanced,6,6,108,53.0,4.0,13.0,0.0755
+CRS-000070,Fintech Overview - Advanced,Finance,advanced,8,7,301,178.0,37.0,28.0,0.2079
+CRS-000071,Health Policy - Advanced,Health,advanced,6,7,124,72.0,8.0,15.0,0.1111
+CRS-000072,Negotiation Skills - Intermediate,Business,intermediate,10,6,90,51.0,12.0,10.0,0.2353
+CRS-000073,Risk Management - Beginner,Finance,beginner,8,4,153,153.0,59.0,24.0,0.3856
+CRS-000074,Linear Algebra - Intermediate,Mathematics,intermediate,10,5,290,290.0,62.0,67.0,0.2138
+CRS-000075,Statistics Foundations - Beginner,Data Science,beginner,6,3,149,103.0,32.0,12.0,0.3107
+CRS-000076,Nutrition Science - Intermediate,Health,intermediate,4,3,476,0.0,0.0,0.0,
+CRS-000077,Accessibility - Advanced,Design,advanced,8,3,136,89.0,11.0,28.0,0.1236
+CRS-000078,Statistics Foundations - Intermediate,Data Science,intermediate,6,3,213,70.0,17.0,17.0,0.2429
+CRS-000079,Optimisation - Intermediate,Mathematics,intermediate,8,7,111,61.0,14.0,12.0,0.2295
+CRS-000080,Software Testing - Intermediate,Software Engineering,intermediate,6,8,131,104.0,23.0,23.0,0.2212
+CRS-000081,Product Management - Intermediate,Business,intermediate,10,5,95,13.0,2.0,3.0,0.1538
+CRS-000082,Visual Communication - Intermediate,Design,intermediate,4,7,92,70.0,13.0,10.0,0.1857
+CRS-000083,Software Testing - Intermediate,Software Engineering,intermediate,8,5,152,0.0,0.0,0.0,
+CRS-000084,SQL for Analysts - Beginner,Data Science,beginner,8,5,92,70.0,29.0,9.0,0.4143
+CRS-000085,Visual Communication - Intermediate,Design,intermediate,6,3,115,76.0,17.0,17.0,0.2237
+CRS-000086,Probability Theory - Intermediate,Mathematics,intermediate,4,7,160,110.0,30.0,14.0,0.2727
+CRS-000087,Product Management - Beginner,Business,beginner,6,5,230,51.0,21.0,5.0,0.4118
+CRS-000088,Fintech Overview - Intermediate,Finance,intermediate,12,4,719,188.0,33.0,39.0,0.1755
+CRS-000089,Fintech Overview - Beginner,Finance,beginner,10,6,97,53.0,17.0,8.0,0.3208
+CRS-000090,Corporate Finance - Advanced,Finance,advanced,6,8,148,79.0,23.0,17.0,0.2911
+CRS-000091,Fintech Overview - Intermediate,Finance,intermediate,6,8,178,71.0,12.0,12.0,0.169
+CRS-000092,Business Writing - Intermediate,Business,intermediate,8,5,101,101.0,21.0,15.0,0.2079
+CRS-000093,Technical Writing - Beginner,Languages,beginner,6,3,98,34.0,11.0,4.0,0.3235
+CRS-000094,Cloud Fundamentals - Advanced,Software Engineering,advanced,8,4,107,107.0,15.0,19.0,0.1402
+CRS-000095,Deep Learning - Intermediate,Data Science,intermediate,6,6,130,62.0,11.0,18.0,0.1774
+CRS-000096,French Essentials - Intermediate,Languages,intermediate,12,8,94,10.0,2.0,1.0,0.2
+CRS-000097,Data Visualisation - Beginner,Data Science,beginner,10,5,214,36.0,14.0,2.0,0.3889
+CRS-000098,Public Health Basics - Intermediate,Health,intermediate,8,3,261,0.0,0.0,0.0,
+CRS-000099,Corporate Finance - Beginner,Finance,beginner,8,3,144,0.0,0.0,0.0,
+CRS-000100,Product Management - Beginner,Business,beginner,12,4,161,161.0,38.0,25.0,0.236
+CRS-000101,Biostatistics - Advanced,Health,advanced,8,6,341,79.0,12.0,18.0,0.1519
+CRS-000102,Biostatistics - Beginner,Health,beginner,8,8,116,64.0,19.0,9.0,0.2969
+CRS-000103,Mandarin Basics - Beginner,Languages,beginner,12,3,94,24.0,4.0,6.0,0.1667
+CRS-000104,Accounting Basics - Advanced,Finance,advanced,6,7,96,69.0,10.0,10.0,0.1449
+CRS-000105,Probability Theory - Intermediate,Mathematics,intermediate,12,7,440,180.0,35.0,36.0,0.1944
+CRS-000106,Applied Forecasting - Intermediate,Data Science,intermediate,8,5,90,17.0,5.0,4.0,0.2941
+CRS-000107,Accounting Basics - Advanced,Finance,advanced,8,7,197,135.0,27.0,26.0,0.2
+CRS-000108,Prototyping - Beginner,Design,beginner,10,3,157,157.0,58.0,24.0,0.3694
+CRS-000109,Python Programming - Intermediate,Software Engineering,intermediate,4,3,117,117.0,34.0,20.0,0.2906
+CRS-000110,Mental Health First Aid - Beginner,Health,beginner,10,4,221,162.0,44.0,29.0,0.2716
+CRS-000111,Spanish Conversation - Intermediate,Languages,intermediate,10,7,283,199.0,44.0,48.0,0.2211
+CRS-000112,Risk Management - Intermediate,Finance,intermediate,8,6,231,157.0,31.0,29.0,0.1975
+CRS-000113,Public Health Basics - Beginner,Health,beginner,10,6,127,46.0,13.0,10.0,0.2826
+CRS-000114,Interface Design - Beginner,Design,beginner,12,7,91,21.0,6.0,2.0,0.2857
+CRS-000115,Nutrition Science - Beginner,Health,beginner,8,5,115,60.0,17.0,13.0,0.2833
+CRS-000116,Accessibility - Beginner,Design,beginner,8,4,91,14.0,4.0,3.0,0.2857
+CRS-000117,Public Health Basics - Beginner,Health,beginner,8,8,134,58.0,15.0,7.0,0.2586
+CRS-000118,Numerical Methods - Intermediate,Mathematics,intermediate,8,6,197,140.0,16.0,23.0,0.1143
+CRS-000119,Probability Theory - Intermediate,Mathematics,intermediate,4,3,103,70.0,13.0,13.0,0.1857
+CRS-000120,Marketing Analytics - Intermediate,Business,intermediate,6,5,126,70.0,18.0,11.0,0.2571
+CRS-000121,Accessibility - Beginner,Design,beginner,12,4,105,0.0,0.0,0.0,
+CRS-000122,Design Systems - Beginner,Design,beginner,4,5,150,121.0,53.0,15.0,0.438
+CRS-000123,Fintech Overview - Beginner,Finance,beginner,6,8,231,145.0,47.0,25.0,0.3241
+CRS-000124,Design Systems - Advanced,Design,advanced,12,3,142,0.0,0.0,0.0,
+CRS-000125,Machine Learning - Beginner,Data Science,beginner,4,7,569,569.0,159.0,104.0,0.2794
+CRS-000126,Risk Management - Beginner,Finance,beginner,4,3,118,44.0,9.0,7.0,0.2045
+CRS-000127,Data Visualisation - Advanced,Data Science,advanced,8,8,483,300.0,33.0,64.0,0.11
+CRS-000128,Corporate Finance - Advanced,Finance,advanced,6,5,104,21.0,1.0,4.0,0.0476
+CRS-000129,Design Systems - Intermediate,Design,intermediate,10,4,115,27.0,6.0,5.0,0.2222
+CRS-000130,Business English - Intermediate,Languages,intermediate,10,7,90,90.0,25.0,13.0,0.2778
+CRS-000131,Health Policy - Intermediate,Health,intermediate,8,4,207,207.0,55.0,41.0,0.2657
+CRS-000132,Marketing Analytics - Beginner,Business,beginner,10,8,101,92.0,27.0,24.0,0.2935
+CRS-000133,Software Testing - Intermediate,Software Engineering,intermediate,12,4,886,886.0,136.0,171.0,0.1535
+CRS-000134,Nutrition Science - Beginner,Health,beginner,8,3,96,27.0,7.0,6.0,0.2593
+CRS-000135,Probability Theory - Intermediate,Mathematics,intermediate,4,6,199,160.0,32.0,33.0,0.2
+CRS-000136,Public Health Basics - Intermediate,Health,intermediate,10,8,273,40.0,10.0,10.0,0.25
+CRS-000137,Optimisation - Advanced,Mathematics,advanced,6,8,142,142.0,14.0,25.0,0.0986
+CRS-000138,Biostatistics - Beginner,Health,beginner,6,4,99,53.0,25.0,9.0,0.4717
+CRS-000139,Negotiation Skills - Intermediate,Business,intermediate,8,5,132,51.0,14.0,6.0,0.2745
+CRS-000140,Public Health Basics - Intermediate,Health,intermediate,12,5,309,58.0,21.0,8.0,0.3621
+CRS-000141,Financial Modelling - Beginner,Finance,beginner,10,5,189,39.0,12.0,7.0,0.3077
+CRS-000142,Accounting Basics - Intermediate,Finance,intermediate,10,7,102,14.0,4.0,3.0,0.2857
+CRS-000143,Numerical Methods - Beginner,Mathematics,beginner,6,5,176,151.0,55.0,29.0,0.3642
+CRS-000144,Software Testing - Intermediate,Software Engineering,intermediate,12,6,109,35.0,3.0,9.0,0.0857
+CRS-000145,Product Management - Intermediate,Business,intermediate,10,8,134,0.0,0.0,0.0,
+CRS-000146,Machine Learning - Intermediate,Data Science,intermediate,8,3,114,35.0,7.0,9.0,0.2
+CRS-000147,DevOps Practice - Intermediate,Software Engineering,intermediate,6,7,359,199.0,43.0,35.0,0.2161
+CRS-000148,Risk Management - Intermediate,Finance,intermediate,6,5,687,524.0,105.0,111.0,0.2004
+CRS-000149,Corporate Finance - Beginner,Finance,beginner,8,5,142,79.0,21.0,18.0,0.2658
+CRS-000150,Mandarin Basics - Intermediate,Languages,intermediate,6,8,105,83.0,21.0,13.0,0.253
+CRS-000151,UX Research - Beginner,Design,beginner,12,6,87,0.0,0.0,0.0,
+CRS-000152,Financial Modelling - Intermediate,Finance,intermediate,8,6,115,66.0,15.0,12.0,0.2273
+CRS-000153,DevOps Practice - Intermediate,Software Engineering,intermediate,8,6,156,118.0,29.0,19.0,0.2458
+CRS-000154,Marketing Analytics - Beginner,Business,beginner,6,8,127,42.0,9.0,7.0,0.2143
+CRS-000155,Public Health Basics - Beginner,Health,beginner,8,8,83,48.0,14.0,5.0,0.2917
+CRS-000156,Biostatistics - Advanced,Health,advanced,4,6,184,52.0,7.0,12.0,0.1346
+CRS-000157,Prototyping - Intermediate,Design,intermediate,8,5,141,86.0,28.0,16.0,0.3256
+CRS-000158,German for Beginners - Intermediate,Languages,intermediate,6,4,185,44.0,5.0,8.0,0.1136
+CRS-000159,Visual Communication - Beginner,Design,beginner,6,7,99,35.0,10.0,8.0,0.2857
+CRS-000160,German for Beginners - Beginner,Languages,beginner,10,6,105,105.0,25.0,23.0,0.2381
+CRS-000161,Clinical Informatics - Intermediate,Health,intermediate,6,4,115,35.0,7.0,8.0,0.2
+CRS-000162,Spanish Conversation - Intermediate,Languages,intermediate,12,3,613,209.0,52.0,36.0,0.2488
+CRS-000163,Health Policy - Intermediate,Health,intermediate,8,6,316,0.0,0.0,0.0,
+CRS-000164,Clinical Informatics - Intermediate,Health,intermediate,8,6,239,202.0,53.0,35.0,0.2624
+CRS-000165,Design Systems - Advanced,Design,advanced,6,5,100,38.0,5.0,8.0,0.1316
+CRS-000166,Business Writing - Beginner,Business,beginner,10,3,95,62.0,16.0,10.0,0.2581
+CRS-000167,Accounting Basics - Intermediate,Finance,intermediate,6,5,137,19.0,1.0,3.0,0.0526
+CRS-000168,Health Policy - Intermediate,Health,intermediate,6,3,138,93.0,33.0,19.0,0.3548
+CRS-000169,Marketing Analytics - Beginner,Business,beginner,4,6,108,66.0,19.0,13.0,0.2879
+CRS-000170,Business English - Beginner,Languages,beginner,12,7,119,65.0,16.0,10.0,0.2462
+CRS-000171,French Essentials - Advanced,Languages,advanced,12,6,102,56.0,5.0,16.0,0.0893
+CRS-000172,Public Health Basics - Beginner,Health,beginner,4,6,552,182.0,47.0,36.0,0.2582
+CRS-000173,Calculus Review - Intermediate,Mathematics,intermediate,12,3,201,0.0,0.0,0.0,
+CRS-000174,Mandarin Basics - Beginner,Languages,beginner,6,3,105,66.0,21.0,15.0,0.3182
+CRS-000175,Statistics Foundations - Intermediate,Data Science,intermediate,6,3,125,82.0,23.0,11.0,0.2805
+CRS-000176,Negotiation Skills - Advanced,Business,advanced,6,5,448,258.0,43.0,51.0,0.1667
+CRS-000177,Operations Strategy - Intermediate,Business,intermediate,4,5,148,148.0,29.0,27.0,0.1959
+CRS-000178,Statistics Foundations - Intermediate,Data Science,intermediate,8,4,109,83.0,15.0,17.0,0.1807
+CRS-000179,APIs and Microservices - Intermediate,Software Engineering,intermediate,12,4,87,16.0,3.0,2.0,0.1875
+CRS-000180,Product Management - Advanced,Business,advanced,4,8,136,109.0,12.0,23.0,0.1101
+CRS-000181,Nutrition Science - Beginner,Health,beginner,6,4,86,62.0,19.0,13.0,0.3065
+CRS-000182,Machine Learning - Beginner,Data Science,beginner,12,3,132,35.0,10.0,5.0,0.2857
+CRS-000183,Negotiation Skills - Advanced,Business,advanced,12,3,104,42.0,5.0,8.0,0.119
+CRS-000184,Discrete Mathematics - Beginner,Mathematics,beginner,12,8,94,83.0,24.0,10.0,0.2892
+CRS-000185,Biostatistics - Beginner,Health,beginner,4,4,89,89.0,24.0,22.0,0.2697
+CRS-000186,Spanish Conversation - Intermediate,Languages,intermediate,12,7,103,30.0,8.0,7.0,0.2667
+CRS-000187,Accounting Basics - Intermediate,Finance,intermediate,8,5,103,41.0,6.0,7.0,0.1463
+CRS-000188,Python Programming - Beginner,Software Engineering,beginner,6,7,290,162.0,41.0,32.0,0.2531
+CRS-000189,Business Writing - Beginner,Business,beginner,8,8,129,36.0,9.0,6.0,0.25
+CRS-000190,Financial Modelling - Beginner,Finance,beginner,8,7,95,19.0,6.0,3.0,0.3158
+CRS-000191,Marketing Analytics - Intermediate,Business,intermediate,10,5,334,132.0,23.0,33.0,0.1742
+CRS-000192,Financial Modelling - Beginner,Finance,beginner,8,5,122,57.0,20.0,8.0,0.3509
+CRS-000193,Technical Writing - Advanced,Languages,advanced,6,4,132,68.0,7.0,13.0,0.1029
+CRS-000194,French Essentials - Intermediate,Languages,intermediate,10,5,100,41.0,11.0,12.0,0.2683
+CRS-000195,Marketing Analytics - Beginner,Business,beginner,8,6,238,169.0,41.0,34.0,0.2426
+CRS-000196,Prototyping - Beginner,Design,beginner,8,8,105,22.0,7.0,1.0,0.3182
+CRS-000197,Accessibility - Intermediate,Design,intermediate,4,3,129,40.0,8.0,5.0,0.2
+CRS-000198,Public Health Basics - Beginner,Health,beginner,6,6,115,56.0,17.0,8.0,0.3036
+CRS-000199,DevOps Practice - Beginner,Software Engineering,beginner,6,4,162,49.0,19.0,6.0,0.3878
+CRS-000200,Machine Learning - Beginner,Data Science,beginner,6,8,128,96.0,23.0,12.0,0.2396
+CRS-000201,Marketing Analytics - Intermediate,Business,intermediate,6,7,271,38.0,8.0,5.0,0.2105
+CRS-000202,Risk Management - Intermediate,Finance,intermediate,4,6,161,80.0,27.0,16.0,0.3375
+CRS-000203,Design Systems - Advanced,Design,advanced,8,3,261,183.0,18.0,36.0,0.0984
+CRS-000204,Web Development - Beginner,Software Engineering,beginner,8,5,172,97.0,27.0,22.0,0.2784
+CRS-000205,Accounting Basics - Beginner,Finance,beginner,4,8,130,19.0,5.0,3.0,0.2632
+CRS-000206,Public Health Basics - Beginner,Health,beginner,8,7,100,38.0,9.0,8.0,0.2368
+CRS-000207,Project Management - Intermediate,Business,intermediate,12,7,139,83.0,17.0,13.0,0.2048
+CRS-000208,SQL for Analysts - Beginner,Data Science,beginner,12,4,127,0.0,0.0,0.0,
+CRS-000209,Fintech Overview - Beginner,Finance,beginner,4,8,136,72.0,29.0,15.0,0.4028
+CRS-000210,Business Writing - Beginner,Business,beginner,6,4,787,391.0,119.0,78.0,0.3043
+CRS-000211,Data Visualisation - Advanced,Data Science,advanced,6,4,110,80.0,10.0,13.0,0.125
+CRS-000212,Data Visualisation - Intermediate,Data Science,intermediate,4,5,166,61.0,18.0,10.0,0.2951
+CRS-000213,Mandarin Basics - Beginner,Languages,beginner,10,8,177,0.0,0.0,0.0,
+CRS-000214,Risk Management - Intermediate,Finance,intermediate,6,7,85,7.0,3.0,1.0,0.4286
+CRS-000215,Nutrition Science - Beginner,Health,beginner,6,5,138,84.0,30.0,15.0,0.3571
+CRS-000216,Statistics Foundations - Beginner,Data Science,beginner,8,6,244,78.0,17.0,11.0,0.2179
+CRS-000217,Prototyping - Beginner,Design,beginner,10,4,97,97.0,26.0,13.0,0.268
+CRS-000218,Marketing Analytics - Intermediate,Business,intermediate,8,5,1449,0.0,0.0,0.0,
+CRS-000219,Spanish Conversation - Beginner,Languages,beginner,10,6,88,44.0,12.0,4.0,0.2727
+CRS-000220,Biostatistics - Intermediate,Health,intermediate,4,4,106,77.0,14.0,13.0,0.1818
+CRS-000221,APIs and Microservices - Intermediate,Software Engineering,intermediate,8,7,405,405.0,76.0,75.0,0.1877
+CRS-000222,Technical Writing - Intermediate,Languages,intermediate,8,8,94,36.0,7.0,8.0,0.1944
+CRS-000223,Statistics Foundations - Intermediate,Data Science,intermediate,12,6,143,72.0,12.0,17.0,0.1667
+CRS-000224,Numerical Methods - Intermediate,Mathematics,intermediate,10,6,108,26.0,5.0,6.0,0.1923
+CRS-000225,Probability Theory - Advanced,Mathematics,advanced,8,8,137,13.0,0.0,1.0,0.0
+CRS-000226,Nutrition Science - Beginner,Health,beginner,6,5,108,108.0,25.0,16.0,0.2315
+CRS-000227,Project Management - Intermediate,Business,intermediate,8,3,85,30.0,3.0,8.0,0.1
+CRS-000228,DevOps Practice - Beginner,Software Engineering,beginner,6,4,717,540.0,152.0,96.0,0.2815
+CRS-000229,Data Visualisation - Intermediate,Data Science,intermediate,12,5,128,81.0,15.0,15.0,0.1852
+CRS-000230,Numerical Methods - Beginner,Mathematics,beginner,8,7,105,0.0,0.0,0.0,
+CRS-000231,Optimisation - Intermediate,Mathematics,intermediate,12,3,118,37.0,6.0,9.0,0.1622
+CRS-000232,Accessibility - Intermediate,Design,intermediate,8,8,103,91.0,18.0,15.0,0.1978
+CRS-000233,Design Systems - Beginner,Design,beginner,8,3,106,67.0,20.0,10.0,0.2985
+CRS-000234,Statistics Foundations - Intermediate,Data Science,intermediate,6,3,198,198.0,46.0,36.0,0.2323
+CRS-000235,Data Visualisation - Intermediate,Data Science,intermediate,12,5,164,71.0,15.0,20.0,0.2113
+CRS-000236,Nutrition Science - Advanced,Health,advanced,4,4,104,57.0,9.0,18.0,0.1579
+CRS-000237,Health Policy - Beginner,Health,beginner,12,7,319,0.0,0.0,0.0,
+CRS-000238,Fintech Overview - Advanced,Finance,advanced,10,8,282,42.0,4.0,13.0,0.0952
+CRS-000239,Probability Theory - Beginner,Mathematics,beginner,8,7,343,250.0,77.0,38.0,0.308
+CRS-000240,Technical Writing - Beginner,Languages,beginner,12,4,317,238.0,74.0,45.0,0.3109
+CRS-000241,Calculus Review - Advanced,Mathematics,advanced,4,5,113,93.0,9.0,14.0,0.0968
+CRS-000242,Corporate Finance - Intermediate,Finance,intermediate,8,8,131,13.0,3.0,4.0,0.2308
+CRS-000243,Linear Algebra - Beginner,Mathematics,beginner,6,7,106,50.0,18.0,7.0,0.36
+CRS-000244,French Essentials - Intermediate,Languages,intermediate,10,3,100,31.0,9.0,6.0,0.2903
+CRS-000245,Statistics Foundations - Beginner,Data Science,beginner,4,6,147,98.0,42.0,15.0,0.4286
+CRS-000246,Numerical Methods - Beginner,Mathematics,beginner,8,3,124,34.0,11.0,4.0,0.3235
+CRS-000247,Discrete Mathematics - Intermediate,Mathematics,intermediate,8,7,188,0.0,0.0,0.0,
+CRS-000248,Clinical Informatics - Advanced,Health,advanced,8,6,132,24.0,8.0,5.0,0.3333
+CRS-000249,Accounting Basics - Beginner,Finance,beginner,4,7,96,48.0,13.0,9.0,0.2708
+CRS-000250,Technical Writing - Beginner,Languages,beginner,6,5,100,62.0,25.0,12.0,0.4032
+CRS-000251,Project Management - Intermediate,Business,intermediate,10,3,183,183.0,44.0,26.0,0.2404
+CRS-000252,Operations Strategy - Advanced,Business,advanced,8,8,107,70.0,7.0,14.0,0.1
+CRS-000253,Web Development - Intermediate,Software Engineering,intermediate,8,5,1050,220.0,57.0,38.0,0.2591
+CRS-000254,French Essentials - Beginner,Languages,beginner,6,4,781,210.0,64.0,39.0,0.3048
+CRS-000255,Interface Design - Intermediate,Design,intermediate,12,3,309,201.0,29.0,39.0,0.1443
+CRS-000256,Spanish Conversation - Intermediate,Languages,intermediate,4,7,106,24.0,4.0,5.0,0.1667
+CRS-000257,Nutrition Science - Advanced,Health,advanced,12,3,156,156.0,29.0,32.0,0.1859
+CRS-000258,DevOps Practice - Beginner,Software Engineering,beginner,12,6,144,26.0,9.0,2.0,0.3462
+CRS-000259,Cloud Fundamentals - Beginner,Software Engineering,beginner,6,6,86,45.0,20.0,9.0,0.4444
+CRS-000260,Machine Learning - Beginner,Data Science,beginner,8,7,138,94.0,24.0,17.0,0.2553
+CRS-000261,Machine Learning - Advanced,Data Science,advanced,10,4,253,56.0,4.0,12.0,0.0714
+CRS-000262,Accounting Basics - Beginner,Finance,beginner,6,3,818,524.0,173.0,90.0,0.3302
+CRS-000263,UX Research - Intermediate,Design,intermediate,8,7,70,39.0,11.0,6.0,0.2821
+CRS-000264,German for Beginners - Beginner,Languages,beginner,4,3,92,92.0,33.0,12.0,0.3587
+CRS-000265,Project Management - Beginner,Business,beginner,10,5,234,234.0,60.0,39.0,0.2564
+CRS-000266,Prototyping - Intermediate,Design,intermediate,10,7,233,0.0,0.0,0.0,
+CRS-000267,Marketing Analytics - Advanced,Business,advanced,4,4,126,105.0,17.0,20.0,0.1619
+CRS-000268,Operations Strategy - Beginner,Business,beginner,4,7,115,44.0,17.0,9.0,0.3864
+CRS-000269,Linear Algebra - Intermediate,Mathematics,intermediate,4,3,157,157.0,35.0,33.0,0.2229
+CRS-000270,Business Writing - Beginner,Business,beginner,12,4,116,25.0,10.0,3.0,0.4
+CRS-000271,UX Research - Intermediate,Design,intermediate,6,7,192,192.0,49.0,33.0,0.2552
+CRS-000272,Numerical Methods - Advanced,Mathematics,advanced,4,4,283,216.0,24.0,46.0,0.1111
+CRS-000273,APIs and Microservices - Intermediate,Software Engineering,intermediate,10,5,170,103.0,34.0,14.0,0.3301
+CRS-000274,Business Writing - Beginner,Business,beginner,12,4,137,38.0,9.0,4.0,0.2368
+CRS-000275,Linear Algebra - Beginner,Mathematics,beginner,4,4,147,147.0,40.0,25.0,0.2721
+CRS-000276,Mental Health First Aid - Advanced,Health,advanced,6,8,3068,3068.0,480.0,658.0,0.1565
+CRS-000277,DevOps Practice - Advanced,Software Engineering,advanced,10,8,177,130.0,22.0,29.0,0.1692
+CRS-000278,Business English - Beginner,Languages,beginner,10,6,164,80.0,31.0,12.0,0.3875
+CRS-000279,APIs and Microservices - Intermediate,Software Engineering,intermediate,6,8,455,283.0,46.0,71.0,0.1625
+CRS-000280,Optimisation - Beginner,Mathematics,beginner,4,3,115,36.0,11.0,5.0,0.3056
+CRS-000281,Spanish Conversation - Beginner,Languages,beginner,8,5,219,191.0,64.0,30.0,0.3351
+CRS-000282,UX Research - Advanced,Design,advanced,12,3,410,274.0,29.0,48.0,0.1058
+CRS-000283,Product Management - Beginner,Business,beginner,10,6,77,0.0,0.0,0.0,
+CRS-000284,Fintech Overview - Beginner,Finance,beginner,8,4,188,94.0,26.0,18.0,0.2766
+CRS-000285,Linear Algebra - Intermediate,Mathematics,intermediate,12,8,331,221.0,33.0,43.0,0.1493
+CRS-000286,Fintech Overview - Beginner,Finance,beginner,12,4,234,62.0,22.0,8.0,0.3548
+CRS-000287,Design Systems - Intermediate,Design,intermediate,10,6,208,93.0,16.0,19.0,0.172
+CRS-000288,Personal Investing - Beginner,Finance,beginner,10,4,81,42.0,9.0,6.0,0.2143
+CRS-000289,Fintech Overview - Advanced,Finance,advanced,8,7,291,250.0,29.0,58.0,0.116
+CRS-000290,Clinical Informatics - Beginner,Health,beginner,4,3,85,54.0,20.0,8.0,0.3704
+CRS-000291,Nutrition Science - Beginner,Health,beginner,6,3,406,406.0,142.0,70.0,0.3498
+CRS-000292,Project Management - Beginner,Business,beginner,10,5,224,103.0,30.0,17.0,0.2913
+CRS-000293,Operations Strategy - Intermediate,Business,intermediate,6,4,132,77.0,13.0,11.0,0.1688
+CRS-000294,Machine Learning - Intermediate,Data Science,intermediate,12,8,135,83.0,14.0,18.0,0.1687
+CRS-000295,Prototyping - Beginner,Design,beginner,10,5,209,87.0,27.0,13.0,0.3103
+CRS-000296,Cloud Fundamentals - Beginner,Software Engineering,beginner,8,6,141,75.0,23.0,12.0,0.3067
+CRS-000297,Probability Theory - Intermediate,Mathematics,intermediate,6,4,123,123.0,25.0,20.0,0.2033
+CRS-000298,Optimisation - Beginner,Mathematics,beginner,12,3,104,104.0,23.0,24.0,0.2212
+CRS-000299,UX Research - Advanced,Design,advanced,4,3,96,96.0,24.0,13.0,0.25
+CRS-000300,SQL for Analysts - Intermediate,Data Science,intermediate,6,5,88,0.0,0.0,0.0,
+CRS-000301,Deep Learning - Intermediate,Data Science,intermediate,12,5,231,149.0,31.0,35.0,0.2081
+CRS-000302,Mandarin Basics - Intermediate,Languages,intermediate,6,8,119,83.0,20.0,19.0,0.241
+CRS-000303,Personal Investing - Advanced,Finance,advanced,4,8,137,38.0,7.0,6.0,0.1842
+CRS-000304,UX Research - Beginner,Design,beginner,12,8,200,94.0,28.0,17.0,0.2979
+CRS-000305,Marketing Analytics - Intermediate,Business,intermediate,6,7,110,80.0,21.0,17.0,0.2625
+CRS-000306,Public Health Basics - Beginner,Health,beginner,8,8,126,76.0,18.0,15.0,0.2368
+CRS-000307,Technical Writing - Intermediate,Languages,intermediate,12,6,412,273.0,59.0,62.0,0.2161
+CRS-000308,Statistics Foundations - Advanced,Data Science,advanced,4,8,198,122.0,13.0,25.0,0.1066
+CRS-000309,Public Health Basics - Beginner,Health,beginner,6,7,561,291.0,93.0,37.0,0.3196
+CRS-000310,Public Health Basics - Beginner,Health,beginner,12,8,318,196.0,59.0,34.0,0.301
+CRS-000311,Design Systems - Beginner,Design,beginner,10,8,121,25.0,8.0,7.0,0.32
+CRS-000312,Mental Health First Aid - Beginner,Health,beginner,8,8,142,48.0,8.0,10.0,0.1667
+CRS-000313,Risk Management - Intermediate,Finance,intermediate,10,5,186,69.0,22.0,13.0,0.3188
+CRS-000314,Mental Health First Aid - Intermediate,Health,intermediate,10,7,101,26.0,4.0,5.0,0.1538
+CRS-000315,Numerical Methods - Beginner,Mathematics,beginner,8,6,127,0.0,0.0,0.0,
+CRS-000316,Nutrition Science - Intermediate,Health,intermediate,6,5,99,59.0,16.0,11.0,0.2712
+CRS-000317,Visual Communication - Beginner,Design,beginner,8,6,73,32.0,7.0,5.0,0.2188
+CRS-000318,Prototyping - Beginner,Design,beginner,8,3,496,0.0,0.0,0.0,
+CRS-000319,Linear Algebra - Intermediate,Mathematics,intermediate,10,8,195,97.0,16.0,17.0,0.1649
+CRS-000320,Clinical Informatics - Beginner,Health,beginner,4,8,184,82.0,23.0,19.0,0.2805
+CRS-000321,DevOps Practice - Intermediate,Software Engineering,intermediate,12,7,101,62.0,19.0,7.0,0.3065
+CRS-000322,Visual Communication - Intermediate,Design,intermediate,6,6,87,13.0,1.0,2.0,0.0769
+CRS-000323,Business Writing - Beginner,Business,beginner,10,8,102,40.0,14.0,5.0,0.35
+CRS-000324,Visual Communication - Advanced,Design,advanced,8,4,189,90.0,12.0,22.0,0.1333
+CRS-000325,Fintech Overview - Intermediate,Finance,intermediate,12,4,168,92.0,14.0,18.0,0.1522
+CRS-000326,Statistics Foundations - Beginner,Data Science,beginner,10,6,516,353.0,96.0,65.0,0.272
+CRS-000327,Technical Writing - Beginner,Languages,beginner,10,3,88,29.0,7.0,2.0,0.2414
+CRS-000328,Python Programming - Beginner,Software Engineering,beginner,8,6,117,0.0,0.0,0.0,
+CRS-000329,Business Writing - Intermediate,Business,intermediate,8,4,144,68.0,17.0,17.0,0.25
+CRS-000330,Data Visualisation - Beginner,Data Science,beginner,8,3,172,107.0,35.0,15.0,0.3271
+CRS-000331,Product Management - Beginner,Business,beginner,8,4,101,78.0,31.0,10.0,0.3974
+CRS-000332,Calculus Review - Beginner,Mathematics,beginner,6,5,84,47.0,16.0,5.0,0.3404
+CRS-000333,Machine Learning - Beginner,Data Science,beginner,8,7,160,85.0,30.0,17.0,0.3529
+CRS-000334,Corporate Finance - Beginner,Finance,beginner,6,3,97,0.0,0.0,0.0,
+CRS-000335,Cloud Fundamentals - Beginner,Software Engineering,beginner,8,5,370,0.0,0.0,0.0,
+CRS-000336,German for Beginners - Beginner,Languages,beginner,4,5,156,126.0,45.0,13.0,0.3571
+CRS-000337,Interface Design - Beginner,Design,beginner,10,8,222,98.0,25.0,15.0,0.2551
+CRS-000338,Python Programming - Beginner,Software Engineering,beginner,6,4,92,39.0,14.0,5.0,0.359
+CRS-000339,Interface Design - Intermediate,Design,intermediate,12,3,121,0.0,0.0,0.0,
+CRS-000340,Health Policy - Beginner,Health,beginner,8,4,99,69.0,22.0,11.0,0.3188
+CRS-000341,Visual Communication - Beginner,Design,beginner,4,7,137,65.0,21.0,11.0,0.3231
+CRS-000342,Probability Theory - Beginner,Mathematics,beginner,8,6,113,57.0,13.0,13.0,0.2281
+CRS-000343,Business Writing - Beginner,Business,beginner,8,4,112,48.0,13.0,9.0,0.2708
+CRS-000344,Web Development - Beginner,Software Engineering,beginner,6,7,115,43.0,18.0,7.0,0.4186
+CRS-000345,Health Policy - Beginner,Health,beginner,8,5,116,92.0,19.0,16.0,0.2065
+CRS-000346,French Essentials - Advanced,Languages,advanced,12,3,181,74.0,11.0,16.0,0.1486
+CRS-000347,Mental Health First Aid - Intermediate,Health,intermediate,8,6,140,54.0,18.0,12.0,0.3333
+CRS-000348,Interface Design - Beginner,Design,beginner,8,5,97,97.0,31.0,12.0,0.3196
+CRS-000349,Mandarin Basics - Beginner,Languages,beginner,8,3,88,59.0,24.0,8.0,0.4068
+CRS-000350,Business Writing - Beginner,Business,beginner,8,3,379,0.0,0.0,0.0,
+CRS-000351,Business English - Intermediate,Languages,intermediate,6,5,306,232.0,48.0,35.0,0.2069
+CRS-000352,APIs and Microservices - Intermediate,Software Engineering,intermediate,8,5,150,118.0,26.0,25.0,0.2203
+CRS-000353,Software Testing - Intermediate,Software Engineering,intermediate,12,3,108,44.0,13.0,6.0,0.2955
+CRS-000354,Risk Management - Intermediate,Finance,intermediate,12,4,89,20.0,2.0,6.0,0.1
+CRS-000355,Fintech Overview - Advanced,Finance,advanced,8,5,108,73.0,19.0,10.0,0.2603
+CRS-000356,DevOps Practice - Beginner,Software Engineering,beginner,6,8,103,73.0,21.0,11.0,0.2877
+CRS-000357,Cloud Fundamentals - Beginner,Software Engineering,beginner,12,4,244,0.0,0.0,0.0,
+CRS-000358,Prototyping - Advanced,Design,advanced,8,8,119,92.0,17.0,13.0,0.1848
+CRS-000359,Public Health Basics - Beginner,Health,beginner,4,4,126,51.0,17.0,9.0,0.3333
+CRS-000360,Accounting Basics - Intermediate,Finance,intermediate,8,3,138,48.0,17.0,10.0,0.3542
+CRS-000361,Product Management - Beginner,Business,beginner,4,3,219,219.0,86.0,29.0,0.3927
+CRS-000362,Discrete Mathematics - Beginner,Mathematics,beginner,10,7,91,77.0,34.0,15.0,0.4416
+CRS-000363,Health Policy - Intermediate,Health,intermediate,12,5,174,144.0,14.0,25.0,0.0972
+CRS-000364,Prototyping - Intermediate,Design,intermediate,4,3,111,70.0,15.0,11.0,0.2143
+CRS-000365,Fintech Overview - Beginner,Finance,beginner,12,8,173,91.0,24.0,23.0,0.2637
+CRS-000366,Spanish Conversation - Intermediate,Languages,intermediate,10,6,133,88.0,16.0,18.0,0.1818
+CRS-000367,Applied Forecasting - Beginner,Data Science,beginner,4,5,118,88.0,30.0,17.0,0.3409
+CRS-000368,Business Writing - Beginner,Business,beginner,8,7,88,31.0,14.0,3.0,0.4516
+CRS-000369,Project Management - Intermediate,Business,intermediate,6,6,142,69.0,13.0,16.0,0.1884
+CRS-000370,Applied Forecasting - Intermediate,Data Science,intermediate,8,5,96,64.0,15.0,7.0,0.2344
+CRS-000371,Mental Health First Aid - Advanced,Health,advanced,8,3,78,50.0,7.0,13.0,0.14
+CRS-000372,Biostatistics - Intermediate,Health,intermediate,6,5,258,54.0,11.0,12.0,0.2037
+CRS-000373,Business English - Beginner,Languages,beginner,10,4,98,75.0,23.0,13.0,0.3067
+CRS-000374,Design Systems - Beginner,Design,beginner,4,3,103,72.0,25.0,10.0,0.3472
+CRS-000375,Fintech Overview - Intermediate,Finance,intermediate,8,6,246,246.0,72.0,44.0,0.2927
+CRS-000376,Accessibility - Beginner,Design,beginner,6,5,103,84.0,32.0,14.0,0.381
+CRS-000377,Interface Design - Intermediate,Design,intermediate,6,4,144,111.0,26.0,18.0,0.2342
+CRS-000378,Operations Strategy - Intermediate,Business,intermediate,8,5,102,0.0,0.0,0.0,
+CRS-000379,Interface Design - Advanced,Design,advanced,6,7,89,38.0,4.0,11.0,0.1053
+CRS-000380,Design Systems - Beginner,Design,beginner,10,5,80,6.0,1.0,1.0,0.1667
+CRS-000381,Clinical Informatics - Beginner,Health,beginner,4,8,112,112.0,33.0,21.0,0.2946
+CRS-000382,Discrete Mathematics - Intermediate,Mathematics,intermediate,4,6,248,217.0,55.0,39.0,0.2535
+CRS-000383,Marketing Analytics - Beginner,Business,beginner,8,4,88,70.0,13.0,17.0,0.1857
+CRS-000384,Optimisation - Advanced,Mathematics,advanced,4,6,108,91.0,16.0,20.0,0.1758
+CRS-000385,Accessibility - Beginner,Design,beginner,8,6,108,98.0,26.0,15.0,0.2653
+CRS-000386,Web Development - Beginner,Software Engineering,beginner,8,7,161,97.0,30.0,14.0,0.3093
+CRS-000387,Operations Strategy - Advanced,Business,advanced,12,7,199,0.0,0.0,0.0,
+CRS-000388,Calculus Review - Intermediate,Mathematics,intermediate,4,8,97,65.0,14.0,14.0,0.2154
+CRS-000389,Numerical Methods - Beginner,Mathematics,beginner,6,6,85,54.0,18.0,12.0,0.3333
+CRS-000390,Operations Strategy - Advanced,Business,advanced,8,5,180,106.0,13.0,19.0,0.1226
+CRS-000391,Health Policy - Intermediate,Health,intermediate,8,5,495,93.0,23.0,16.0,0.2473
+CRS-000392,French Essentials - Advanced,Languages,advanced,4,4,90,72.0,14.0,14.0,0.1944
+CRS-000393,Operations Strategy - Beginner,Business,beginner,4,6,1753,1174.0,357.0,212.0,0.3041
+CRS-000394,Prototyping - Beginner,Design,beginner,8,6,360,130.0,49.0,22.0,0.3769
+CRS-000395,Spanish Conversation - Advanced,Languages,advanced,6,4,82,0.0,0.0,0.0,
+CRS-000396,Negotiation Skills - Beginner,Business,beginner,6,4,119,35.0,8.0,5.0,0.2286
+CRS-000397,Risk Management - Beginner,Finance,beginner,12,8,151,0.0,0.0,0.0,
+CRS-000398,Web Development - Beginner,Software Engineering,beginner,8,7,203,78.0,31.0,13.0,0.3974
+CRS-000399,Operations Strategy - Beginner,Business,beginner,6,6,153,97.0,35.0,9.0,0.3608
+CRS-000400,Spanish Conversation - Intermediate,Languages,intermediate,6,8,158,98.0,25.0,11.0,0.2551
+CRS-000401,Machine Learning - Intermediate,Data Science,intermediate,8,8,135,58.0,11.0,7.0,0.1897
+CRS-000402,Fintech Overview - Intermediate,Finance,intermediate,12,5,216,135.0,24.0,20.0,0.1778
+CRS-000403,Personal Investing - Intermediate,Finance,intermediate,8,5,88,0.0,0.0,0.0,
+CRS-000404,Negotiation Skills - Intermediate,Business,intermediate,8,6,230,76.0,16.0,12.0,0.2105
+CRS-000405,Clinical Informatics - Intermediate,Health,intermediate,8,7,100,31.0,6.0,5.0,0.1935
+CRS-000406,APIs and Microservices - Intermediate,Software Engineering,intermediate,6,7,291,131.0,28.0,24.0,0.2137
+CRS-000407,UX Research - Beginner,Design,beginner,12,8,124,0.0,0.0,0.0,
+CRS-000408,Financial Modelling - Intermediate,Finance,intermediate,8,3,141,43.0,17.0,7.0,0.3953
+CRS-000409,Public Health Basics - Beginner,Health,beginner,8,4,148,0.0,0.0,0.0,
+CRS-000410,DevOps Practice - Beginner,Software Engineering,beginner,12,4,85,0.0,0.0,0.0,
+CRS-000411,Marketing Analytics - Beginner,Business,beginner,12,7,148,0.0,0.0,0.0,
+CRS-000412,Mental Health First Aid - Intermediate,Health,intermediate,6,4,170,122.0,22.0,34.0,0.1803
+CRS-000413,Operations Strategy - Intermediate,Business,intermediate,12,8,519,0.0,0.0,0.0,
+CRS-000414,Statistics Foundations - Advanced,Data Science,advanced,8,8,168,103.0,9.0,23.0,0.0874
+CRS-000415,Visual Communication - Intermediate,Design,intermediate,8,5,542,425.0,65.0,90.0,0.1529
+CRS-000416,Mental Health First Aid - Intermediate,Health,intermediate,10,3,129,129.0,27.0,23.0,0.2093
+CRS-000417,Machine Learning - Intermediate,Data Science,intermediate,4,8,83,33.0,4.0,9.0,0.1212
+CRS-000418,Interface Design - Intermediate,Design,intermediate,8,4,391,299.0,60.0,62.0,0.2007
+CRS-000419,Linear Algebra - Intermediate,Mathematics,intermediate,10,5,107,59.0,14.0,15.0,0.2373
+CRS-000420,Mandarin Basics - Advanced,Languages,advanced,8,4,130,69.0,13.0,6.0,0.1884
+CRS-000421,Applied Forecasting - Advanced,Data Science,advanced,12,3,199,58.0,9.0,13.0,0.1552
+CRS-000422,Financial Modelling - Beginner,Finance,beginner,6,4,242,242.0,85.0,34.0,0.3512
+CRS-000423,French Essentials - Intermediate,Languages,intermediate,4,8,151,52.0,9.0,9.0,0.1731
+CRS-000424,Software Testing - Beginner,Software Engineering,beginner,8,4,125,32.0,7.0,3.0,0.2188
+CRS-000425,Mandarin Basics - Intermediate,Languages,intermediate,10,8,176,60.0,17.0,9.0,0.2833
+CRS-000426,DevOps Practice - Advanced,Software Engineering,advanced,10,3,1298,1298.0,140.0,296.0,0.1079
+CRS-000427,Project Management - Intermediate,Business,intermediate,6,4,117,117.0,30.0,22.0,0.2564
+CRS-000428,Project Management - Beginner,Business,beginner,6,7,165,54.0,16.0,7.0,0.2963
+CRS-000429,Financial Modelling - Beginner,Finance,beginner,8,3,176,0.0,0.0,0.0,
+CRS-000430,Machine Learning - Advanced,Data Science,advanced,10,4,115,85.0,11.0,16.0,0.1294
+CRS-000431,Web Development - Beginner,Software Engineering,beginner,8,8,119,57.0,13.0,7.0,0.2281
+CRS-000432,Risk Management - Beginner,Finance,beginner,8,8,116,44.0,18.0,5.0,0.4091
+CRS-000433,Data Visualisation - Beginner,Data Science,beginner,8,3,150,150.0,38.0,30.0,0.2533
+CRS-000434,Accounting Basics - Advanced,Finance,advanced,6,6,166,133.0,14.0,27.0,0.1053
+CRS-000435,Python Programming - Intermediate,Software Engineering,intermediate,6,3,135,135.0,31.0,35.0,0.2296
+CRS-000436,Clinical Informatics - Intermediate,Health,intermediate,8,7,86,52.0,9.0,6.0,0.1731
+CRS-000437,Data Visualisation - Intermediate,Data Science,intermediate,12,5,129,0.0,0.0,0.0,
+CRS-000438,Mandarin Basics - Advanced,Languages,advanced,8,5,377,289.0,45.0,56.0,0.1557
+CRS-000439,Interface Design - Intermediate,Design,intermediate,8,6,125,79.0,16.0,22.0,0.2025
+CRS-000440,French Essentials - Intermediate,Languages,intermediate,10,4,164,0.0,0.0,0.0,
+CRS-000441,Prototyping - Intermediate,Design,intermediate,6,5,157,33.0,10.0,7.0,0.303
+CRS-000442,Negotiation Skills - Beginner,Business,beginner,8,6,108,108.0,35.0,20.0,0.3241
+CRS-000443,French Essentials - Beginner,Languages,beginner,6,6,102,53.0,11.0,6.0,0.2075
+CRS-000444,Numerical Methods - Beginner,Mathematics,beginner,4,7,288,110.0,32.0,18.0,0.2909
+CRS-000445,Statistics Foundations - Advanced,Data Science,advanced,10,4,136,29.0,1.0,5.0,0.0345
+CRS-000446,Linear Algebra - Beginner,Mathematics,beginner,6,3,141,0.0,0.0,0.0,
+CRS-000447,Biostatistics - Beginner,Health,beginner,8,7,101,52.0,11.0,8.0,0.2115
+CRS-000448,Probability Theory - Beginner,Mathematics,beginner,6,4,124,97.0,20.0,21.0,0.2062
+CRS-000449,Python Programming - Beginner,Software Engineering,beginner,6,4,108,75.0,28.0,14.0,0.3733
+CRS-000450,Numerical Methods - Intermediate,Mathematics,intermediate,8,6,191,117.0,11.0,28.0,0.094
+CRS-000451,Fintech Overview - Advanced,Finance,advanced,8,3,105,35.0,8.0,6.0,0.2286
+CRS-000452,DevOps Practice - Beginner,Software Engineering,beginner,10,7,471,271.0,73.0,42.0,0.2694
+CRS-000453,UX Research - Advanced,Design,advanced,12,5,132,21.0,3.0,5.0,0.1429
+CRS-000454,DevOps Practice - Beginner,Software Engineering,beginner,10,7,153,100.0,28.0,17.0,0.28
+CRS-000455,Biostatistics - Intermediate,Health,intermediate,10,4,108,27.0,7.0,1.0,0.2593
+CRS-000456,Data Visualisation - Advanced,Data Science,advanced,8,7,90,0.0,0.0,0.0,
+CRS-000457,Risk Management - Intermediate,Finance,intermediate,8,3,114,76.0,12.0,16.0,0.1579
+CRS-000458,Fintech Overview - Beginner,Finance,beginner,6,6,88,56.0,17.0,13.0,0.3036
+CRS-000459,Discrete Mathematics - Beginner,Mathematics,beginner,10,6,158,135.0,30.0,28.0,0.2222
+CRS-000460,Health Policy - Beginner,Health,beginner,4,5,294,125.0,34.0,18.0,0.272
+CRS-000461,German for Beginners - Intermediate,Languages,intermediate,6,3,190,134.0,26.0,21.0,0.194
+CRS-000462,Applied Forecasting - Beginner,Data Science,beginner,6,7,1056,453.0,149.0,69.0,0.3289
+CRS-000463,Marketing Analytics - Intermediate,Business,intermediate,6,6,83,53.0,10.0,17.0,0.1887
+CRS-000464,UX Research - Beginner,Design,beginner,6,6,593,303.0,80.0,57.0,0.264
+CRS-000465,SQL for Analysts - Beginner,Data Science,beginner,4,5,144,92.0,23.0,14.0,0.25
+CRS-000466,Clinical Informatics - Beginner,Health,beginner,12,5,98,0.0,0.0,0.0,
+CRS-000467,German for Beginners - Intermediate,Languages,intermediate,12,3,181,121.0,24.0,27.0,0.1983
+CRS-000468,Probability Theory - Intermediate,Mathematics,intermediate,12,6,118,65.0,10.0,9.0,0.1538
+CRS-000469,Product Management - Intermediate,Business,intermediate,8,7,77,59.0,18.0,8.0,0.3051
+CRS-000470,Visual Communication - Beginner,Design,beginner,8,5,248,0.0,0.0,0.0,
+CRS-000471,Software Testing - Intermediate,Software Engineering,intermediate,8,4,109,27.0,5.0,5.0,0.1852
+CRS-000472,Machine Learning - Intermediate,Data Science,intermediate,10,8,169,119.0,33.0,23.0,0.2773
+CRS-000473,Visual Communication - Beginner,Design,beginner,8,7,209,0.0,0.0,0.0,
+CRS-000474,Marketing Analytics - Intermediate,Business,intermediate,8,3,92,49.0,15.0,11.0,0.3061
+CRS-000475,UX Research - Advanced,Design,advanced,12,8,269,133.0,23.0,31.0,0.1729
+CRS-000476,Financial Modelling - Beginner,Finance,beginner,8,8,98,0.0,0.0,0.0,
+CRS-000477,Mental Health First Aid - Beginner,Health,beginner,6,6,120,96.0,25.0,18.0,0.2604
+CRS-000478,Deep Learning - Advanced,Data Science,advanced,12,5,89,38.0,0.0,9.0,0.0
+CRS-000479,Business English - Beginner,Languages,beginner,8,6,252,0.0,0.0,0.0,
+CRS-000480,Health Policy - Intermediate,Health,intermediate,8,6,297,193.0,36.0,43.0,0.1865
+CRS-000481,Business English - Beginner,Languages,beginner,8,6,107,65.0,18.0,9.0,0.2769
+CRS-000482,Operations Strategy - Beginner,Business,beginner,6,8,187,57.0,17.0,7.0,0.2982
+CRS-000483,Biostatistics - Intermediate,Health,intermediate,8,3,191,123.0,30.0,16.0,0.2439
+CRS-000484,Business English - Intermediate,Languages,intermediate,6,7,129,74.0,22.0,20.0,0.2973
+CRS-000485,Financial Modelling - Intermediate,Finance,intermediate,8,6,235,113.0,32.0,12.0,0.2832
+CRS-000486,Corporate Finance - Intermediate,Finance,intermediate,8,6,99,37.0,8.0,8.0,0.2162
+CRS-000487,French Essentials - Advanced,Languages,advanced,6,7,1160,992.0,150.0,191.0,0.1512
+CRS-000488,Machine Learning - Intermediate,Data Science,intermediate,4,8,275,232.0,58.0,47.0,0.25
+CRS-000489,Biostatistics - Intermediate,Health,intermediate,4,3,92,26.0,2.0,1.0,0.0769
+CRS-000490,Technical Writing - Intermediate,Languages,intermediate,6,5,116,94.0,21.0,17.0,0.2234
+CRS-000491,Linear Algebra - Beginner,Mathematics,beginner,8,5,128,20.0,5.0,3.0,0.25
+CRS-000492,Operations Strategy - Beginner,Business,beginner,8,6,190,93.0,24.0,22.0,0.2581
+CRS-000493,Negotiation Skills - Beginner,Business,beginner,6,6,112,73.0,26.0,7.0,0.3562
+CRS-000494,Marketing Analytics - Intermediate,Business,intermediate,6,7,142,83.0,11.0,15.0,0.1325
+CRS-000495,Web Development - Intermediate,Software Engineering,intermediate,6,3,81,81.0,20.0,21.0,0.2469
+CRS-000496,UX Research - Beginner,Design,beginner,8,4,377,0.0,0.0,0.0,
+CRS-000497,Accessibility - Beginner,Design,beginner,10,7,135,78.0,23.0,11.0,0.2949
+CRS-000498,Machine Learning - Advanced,Data Science,advanced,6,3,101,45.0,5.0,17.0,0.1111
+CRS-000499,Software Testing - Beginner,Software Engineering,beginner,8,3,101,0.0,0.0,0.0,
+CRS-000500,Clinical Informatics - Advanced,Health,advanced,10,6,88,56.0,10.0,14.0,0.1786

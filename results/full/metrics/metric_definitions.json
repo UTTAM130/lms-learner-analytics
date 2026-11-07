@@ -1,0 +1,35 @@
+{
+ "definitions": {
+  "valid_event": "Row of activity_events that (1) is the first-ingested delivery of its client_event_id, (2) references an existing enrollment, and (3) has event_time_utc within [enrolled_at, cohort access_end_date + 1 day).",
+  "learner_local_date": "UTC date of (event_time_utc + learners.utc_offset_minutes); the learner master offset is used (not the device offset, which can be missing).",
+  "week": "ISO week, Monday start, of the learner-local date. Weeks are labelled by their Monday.",
+  "active_learner_week": "Learner with >= 1 valid event in the week.",
+  "engaged_learner_week": "Learner with >= 5 valid events in the week.",
+  "events_per_active_learner": "valid events / active learners in the week.",
+  "late_event_share": "Share of the week's valid events ingested after the week had ended (restatement risk for a report published at week end).",
+  "cohort_week_k_active_rate": "Enrollments of a cohort with >= 1 valid event in cohort week k (k = 0..3, week k = days [7k, 7k+6] after the cohort start date, learner-local) / enrollments of the cohort. Only cohorts whose whole window ended before the data cut-off are compared, so every cohort is measured over exactly the same number of weeks.",
+  "completion_rate": "course_outcomes.outcome_status = completed / enrollments, for cohorts whose access window (end_date + completion_window_days) closed before the cut-off. Open cohorts are right-censored and excluded.",
+  "withdrawal_rate": "outcome_status = withdrawn / enrollments (same cohort set).",
+  "median_days_to_complete": "median of (rule_met_at_utc - enrolled_at) in days over completed enrollments.",
+  "cohort_comparison": "Cohorts are only compared within the same duration_weeks and start month, i.e. over identical windows."
+ },
+ "parameters": {
+  "engaged_min_events": 5,
+  "cohort_window_weeks": 4,
+  "completion_window_days": 30
+ },
+ "summary": {
+  "learners": 20000,
+  "learners_without_valid_activity": 4609,
+  "learners_dormant_60d": 3496,
+  "events_delivered": 1989562,
+  "events_valid": 1949686,
+  "duplicate_rows_removed": 32082,
+  "weeks": 59,
+  "cohorts": 2711,
+  "closed_cohorts": 1377,
+  "overall_completion_rate_closed_cohorts": 0.2327,
+  "overall_withdrawal_rate_closed_cohorts": 0.1874,
+  "engaged_inflation_pct_mean": 0.156
+ }
+}

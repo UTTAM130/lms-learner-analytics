@@ -1,0 +1,2241 @@
+{
+ "data_dir": "data/starter",
+ "checks": 317,
+ "passed": 310,
+ "failed": 0,
+ "info": 7,
+ "row_counts": {
+  "learners": 1000,
+  "courses": 40,
+  "content_items": 749,
+  "assessments": 234,
+  "completion_rules": 80,
+  "cohorts": 223,
+  "enrollments": 5000,
+  "enrollment_status_history": 11525,
+  "attempts": 14612,
+  "course_outcomes": 5000,
+  "activity_events": 98702
+ },
+ "results": [
+  {
+   "group": "structure",
+   "check": "learners: columns match data dictionary",
+   "status": "PASS",
+   "detail": "1000 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "learners.learner_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "learners.learner_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.signup_date not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "learners.signup_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.country_code not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "learners.country_code in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.timezone not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "learners.timezone in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.utc_offset_minutes not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "learners.utc_offset_minutes is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.primary_device not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "learners.primary_device in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "learners.acquisition_channel not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "learners.acquisition_channel in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "learners.learner_id primary key unique",
+   "status": "PASS",
+   "detail": "1000 rows",
+   "count": null
+  },
+  {
+   "group": "structure",
+   "check": "courses: columns match data dictionary",
+   "status": "PASS",
+   "detail": "40 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "courses.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.title not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.category not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "courses.category in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.level not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "courses.level in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.duration_weeks not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.duration_weeks is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.delivery_mode not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "courses.delivery_mode in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.published_date not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.published_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "courses.status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.retired_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.n_modules not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.n_modules is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.n_items not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.n_items is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "courses.total_est_minutes not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "courses.total_est_minutes is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "courses.course_id primary key unique",
+   "status": "PASS",
+   "detail": "40 rows",
+   "count": null
+  },
+  {
+   "group": "structure",
+   "check": "content_items: columns match data dictionary",
+   "status": "PASS",
+   "detail": "749 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "content_items.content_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.content_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.parent_content_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.content_type not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "content_items.content_type in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.title not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.sequence_no not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.sequence_no is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.depth not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.depth is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.week_number not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.week_number is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.is_required not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.is_required is boolean",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "content_items.est_minutes not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "content_items.est_minutes is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "content_items.content_id primary key unique",
+   "status": "PASS",
+   "detail": "749 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "content_items.course_id -> courses.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "content_items.parent_content_id -> content_items.content_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "assessments: columns match data dictionary",
+   "status": "PASS",
+   "detail": "234 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "assessments.assessment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.assessment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.content_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.content_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.assessment_type not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "assessments.assessment_type in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.max_score not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.max_score is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.passing_score not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.passing_score is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.max_attempts not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.max_attempts is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.is_required not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.is_required is boolean",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.weight_pct not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.weight_pct is decimal",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "assessments.difficulty_rating not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "assessments.difficulty_rating is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "assessments.assessment_id primary key unique",
+   "status": "PASS",
+   "detail": "234 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "assessments.content_id -> content_items.content_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "assessments.course_id -> courses.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "assessments.content_id unique",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "structure",
+   "check": "completion_rules: columns match data dictionary",
+   "status": "PASS",
+   "detail": "80 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.rule_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.rule_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.rule_version not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.rule_version is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.effective_from not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.effective_from is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.effective_to is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.min_required_content_pct not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.min_required_content_pct is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.assessment_policy not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "completion_rules.assessment_policy in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "completion_rules.completion_window_days not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "completion_rules.completion_window_days is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "completion_rules.rule_id primary key unique",
+   "status": "PASS",
+   "detail": "80 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "completion_rules.course_id -> courses.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "cohorts: columns match data dictionary",
+   "status": "PASS",
+   "detail": "223 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "cohorts.cohort_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.cohort_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.cohort_label not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.start_date not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.start_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.end_date not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.end_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.access_end_date not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.access_end_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.capacity not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "cohorts.capacity is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "cohorts.status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "cohorts.status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "cohorts.cohort_id primary key unique",
+   "status": "PASS",
+   "detail": "223 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "cohorts.course_id -> courses.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "enrollments: columns match data dictionary",
+   "status": "PASS",
+   "detail": "5000 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "enrollments.enrollment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.enrollment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.learner_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.learner_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.course_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.cohort_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.cohort_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.rule_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.rule_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.enrolled_at not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.enrolled_at is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.current_status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "enrollments.current_status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollments.status_updated_at not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollments.status_updated_at is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "enrollments.enrollment_id primary key unique",
+   "status": "PASS",
+   "detail": "5000 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollments.learner_id -> learners.learner_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollments.course_id -> courses.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollments.cohort_id -> cohorts.cohort_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollments.rule_id -> completion_rules.rule_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "enrollment_status_history: columns match data dictionary",
+   "status": "PASS",
+   "detail": "11525 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "enrollment_status_history.history_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollment_status_history.history_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollment_status_history.enrollment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollment_status_history.enrollment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollment_status_history.status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "enrollment_status_history.status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "enrollment_status_history.previous_status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollment_status_history.effective_from not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "enrollment_status_history.effective_from is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "enrollment_status_history.change_source not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "enrollment_status_history.change_source in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "enrollment_status_history.history_id primary key unique",
+   "status": "PASS",
+   "detail": "11525 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollment_status_history.enrollment_id -> enrollments.enrollment_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "attempts: columns match data dictionary",
+   "status": "PASS",
+   "detail": "14612 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "attempts.attempt_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.attempt_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "attempts.enrollment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.enrollment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "attempts.assessment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.assessment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "attempts.attempt_no not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.attempt_no is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "attempts.started_at_utc not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.started_at_utc is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.submitted_at_utc is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "attempts.status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "attempts.status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.score is decimal",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.passed is boolean",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "attempts.duration_minutes is decimal",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "attempts.attempt_id primary key unique",
+   "status": "PASS",
+   "detail": "14612 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "attempts.enrollment_id -> enrollments.enrollment_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "attempts.assessment_id -> assessments.assessment_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "course_outcomes: columns match data dictionary",
+   "status": "PASS",
+   "detail": "5000 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.outcome_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.outcome_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.enrollment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.enrollment_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.rule_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.rule_id id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.required_content_total not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.required_content_total is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.required_content_completed not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.required_content_completed is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.content_completion_pct not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.content_completion_pct is decimal",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.required_assessments_total not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.required_assessments_total is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.required_assessments_passed not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.required_assessments_passed is integer",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.final_score not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.final_score is decimal",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.rule_met_at_utc is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.outcome_status not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "course_outcomes.outcome_status in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.completed_date is date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.platform_completed_at_utc is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.completion_conflict not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.completion_conflict is boolean",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "course_outcomes.evaluated_as_of_utc not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "course_outcomes.evaluated_as_of_utc is timestamp",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "course_outcomes.outcome_id primary key unique",
+   "status": "PASS",
+   "detail": "5000 rows",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "course_outcomes.enrollment_id -> enrollments.enrollment_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "course_outcomes.rule_id -> completion_rules.rule_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "course_outcomes.enrollment_id unique",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "arithmetic",
+   "check": "courses.n_modules = module rows",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "courses.n_items = leaf rows",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "courses.total_est_minutes = sum leaf minutes",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "module rows: parent null, type=module; leaf rows: parent set",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "leaf item course = parent module course",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "sequence_no unique within (course, parent)",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "hierarchy",
+   "check": "week_number within 1..duration_weeks",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "module est_minutes = sum of its items",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "module is_required = any item required",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "rules",
+   "check": "discussions are never required",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "assessment content_type matches assessment_type",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "assessment.course_id = content course",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "assessment.is_required = content.is_required",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "required assessment weights sum to 100 per course",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "non-required assessment weight = 0",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "hierarchy",
+   "check": "every quiz/assignment/exam item has exactly one assessment",
+   "status": "PASS",
+   "detail": "234 items vs 234 assessments",
+   "count": null
+  },
+  {
+   "group": "rules",
+   "check": "passing_score <= max_score",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "rule v1.effective_to + 1 day = v2.effective_from",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "rule v2 open-ended; one rule per version per course",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "dates",
+   "check": "cohort start is a Monday",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "cohort end = start + 7*weeks - 1",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "cohort access_end = end + completion window",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "cohort.status consistent with as-of date",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "rules",
+   "check": "instructor_code null iff self_paced",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "retired iff retired_date <= as-of",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "cohorts start after course published",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "no cohort starts within 14 days of retirement",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "enrollment_id = ENR-<learner_id>-<course_id>",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "keys",
+   "check": "one enrollment per (learner, course)",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "enrollment.course = cohort.course",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "rules",
+   "check": "enrollment.rule_id is the version in force at cohort start",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "learner.signup_date <= enrolled_at",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "enrolled_at before cohort access_end and as-of",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "history sorted by enrollment then time",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "keys",
+   "check": "history_id = ESH-<enrollment_id>-<seq>",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "previous_status = status of the prior row",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "every transition allowed by the state machine",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "first history row is 'enrolled' at enrolled_at",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "lifecycle",
+   "check": "every enrollment has history",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "lifecycle",
+   "check": "enrollment.current_status = last history status",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "enrollment.status_updated_at = last history time",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "no history row after as-of",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "attempt_no <= max_attempts",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "attempt numbers consecutive from 1 per (enrollment, assessment)",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "dates",
+   "check": "later attempts start after the previous one ended",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "dates",
+   "check": "submitted_at >= started_at (submitted)",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "abandoned attempts have no submit/score/passed",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "submitted attempts have submit/score/passed",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "score within 0..max_score",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "passed = (score >= passing_score)",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "duration_minutes = (submitted-started)/60",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "attempt_id = ATT-<enrollment>-<assessment seq>-<attempt_no>",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "dates",
+   "check": "attempts start after enrollment",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "attempts exist only for enrollments with an 'active' history row",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "keys",
+   "check": "outcome_id = OUT-<enrollment_id>; one outcome per enrollment",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "structure",
+   "check": "activity_events: row count",
+   "status": "PASS",
+   "detail": "98702 rows",
+   "count": null
+  },
+  {
+   "group": "required",
+   "check": "activity_events.event_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.enrollment_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.learner_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.course_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.content_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.event_type not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.event_time_utc not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.ingested_at_utc not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.platform not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "required",
+   "check": "activity_events.client_event_id not empty",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.event_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.enrollment_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.learner_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.course_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.content_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "format",
+   "check": "activity_events.client_event_id format",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "activity_events.event_type in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "enum",
+   "check": "activity_events.platform in allowed values",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "activity_events.event_id primary key unique",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "activity_events.learner_id -> learners",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "activity_events.course_id -> courses",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "activity_events.content_id -> content_items",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "foreign_keys",
+   "check": "activity_events.attempt_id -> attempts",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "event.enrollment_id = ENR-<learner_id>-<course_id>",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "keys",
+   "check": "event_id = EVT-<enrollment_id>-<seq>",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "foreign_keys",
+   "check": "event.content_id belongs to event.course_id",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "rules",
+   "check": "attempt_id present iff assessment_start/submit",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  },
+  {
+   "group": "dates",
+   "check": "ingested_at <= as-of",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "keys",
+   "check": "event_id counter is 1..n per enrollment in ingestion order",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "exceptions",
+   "check": "duplicate deliveries (same client_event_id)",
+   "status": "INFO",
+   "detail": "1596 rows = 1.62% of events",
+   "count": 1596
+  },
+  {
+   "group": "exceptions",
+   "check": "duplicates repeat enrollment/content/event_type of their first delivery",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "exceptions",
+   "check": "events whose enrollment_id has no enrollment record",
+   "status": "INFO",
+   "detail": "271 rows",
+   "count": 271
+  },
+  {
+   "group": "exceptions",
+   "check": "events earlier than enrolled_at",
+   "status": "INFO",
+   "detail": "116 rows",
+   "count": 116
+  },
+  {
+   "group": "exceptions",
+   "check": "event_time_utc later than ingested_at_utc (impossible)",
+   "status": "INFO",
+   "detail": "344 rows",
+   "count": 344
+  },
+  {
+   "group": "exceptions",
+   "check": "late arrivals (ingestion lag > 24 h)",
+   "status": "INFO",
+   "detail": "3521 rows; offline-sync + backfill, legitimate",
+   "count": 3521
+  },
+  {
+   "group": "exceptions",
+   "check": "events with missing device UTC offset",
+   "status": "INFO",
+   "detail": "225 rows",
+   "count": 225
+  },
+  {
+   "group": "lifecycle",
+   "check": "no activity after an enrollment was dropped",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "required_content_total matches catalogue",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "required_content_completed matches deduplicated events",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "content_completion_pct = completed/total*100",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "required_assessments_total / passed match attempts",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "final_score = sum(weight * best score)/100",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "rule_met_at_utc = max(content threshold, last required pass)",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "outcome_status follows the rule (completed iff rule met)",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "arithmetic",
+   "check": "completed_date = UTC date of rule_met_at",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "lifecycle",
+   "check": "platform_completed_at = 'completed' history row",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "completion_rule",
+   "check": "completion_conflict flag recomputes",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "exceptions",
+   "check": "platform completion not backed by the rule (completion_conflict)",
+   "status": "INFO",
+   "detail": "166 enrollments",
+   "count": 166
+  },
+  {
+   "group": "completion_rule",
+   "check": "completed enrollments reached the rule within the access window",
+   "status": "PASS",
+   "detail": "0 violating rows",
+   "count": 0
+  },
+  {
+   "group": "separation",
+   "check": "no ground-truth / label column in any input table",
+   "status": "PASS",
+   "detail": "",
+   "count": null
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+# full-scale CSVs (~450 MB) are regenerated, not committed; only their small reports live in results/full
+data/full/
+data/tiny/

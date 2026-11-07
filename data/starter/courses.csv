@@ -1,0 +1,41 @@
+course_id,title,category,level,duration_weeks,delivery_mode,published_date,status,retired_date,n_modules,n_items,total_est_minutes
+CRS-000001,Marketing Analytics - Advanced,Business,advanced,8,self_paced,2026-04-09,published,,4,15,357
+CRS-000002,Marketing Analytics - Beginner,Business,beginner,8,instructor_led,2026-02-01,published,,5,21,386
+CRS-000003,Biostatistics - Beginner,Health,beginner,10,instructor_led,2025-12-12,published,,4,15,288
+CRS-000004,Accessibility - Intermediate,Design,intermediate,10,instructor_led,2026-06-12,published,,4,16,259
+CRS-000005,Linear Algebra - Beginner,Mathematics,beginner,10,instructor_led,2026-07-16,published,,5,18,266
+CRS-000006,Mandarin Basics - Intermediate,Languages,intermediate,6,instructor_led,2026-06-28,published,,2,8,263
+CRS-000007,Technical Writing - Intermediate,Languages,intermediate,8,self_paced,2026-02-12,published,,4,16,383
+CRS-000008,Fintech Overview - Beginner,Finance,beginner,8,instructor_led,2026-05-31,published,,4,19,406
+CRS-000009,Calculus Review - Intermediate,Mathematics,intermediate,8,instructor_led,2026-06-04,published,,3,12,237
+CRS-000010,Fintech Overview - Advanced,Finance,advanced,8,instructor_led,2026-03-06,published,,4,18,305
+CRS-000011,Mandarin Basics - Intermediate,Languages,intermediate,10,self_paced,2026-03-06,published,,6,22,439
+CRS-000012,Machine Learning - Beginner,Data Science,beginner,4,self_paced,2026-01-06,published,,2,8,227
+CRS-000013,Clinical Informatics - Beginner,Health,beginner,4,self_paced,2025-12-13,published,,2,8,225
+CRS-000014,Spanish Conversation - Intermediate,Languages,intermediate,12,instructor_led,2025-09-02,published,,6,19,349
+CRS-000015,Visual Communication - Advanced,Design,advanced,8,self_paced,2026-01-12,published,,5,20,463
+CRS-000016,Public Health Basics - Beginner,Health,beginner,10,instructor_led,2025-11-16,published,,5,20,360
+CRS-000017,Biostatistics - Advanced,Health,advanced,6,instructor_led,2026-07-14,published,,2,7,189
+CRS-000018,Accounting Basics - Intermediate,Finance,intermediate,8,instructor_led,2026-07-18,published,,4,16,455
+CRS-000019,Mandarin Basics - Beginner,Languages,beginner,10,self_paced,2026-02-17,published,,6,20,420
+CRS-000020,Software Testing - Beginner,Software Engineering,beginner,10,self_paced,2025-10-12,published,,4,13,247
+CRS-000021,Optimisation - Intermediate,Mathematics,intermediate,8,self_paced,2025-09-22,published,,3,13,369
+CRS-000022,Public Health Basics - Beginner,Health,beginner,8,self_paced,2026-04-16,published,,3,11,292
+CRS-000023,Machine Learning - Advanced,Data Science,advanced,6,self_paced,2026-06-12,published,,3,12,290
+CRS-000024,Clinical Informatics - Advanced,Health,advanced,8,instructor_led,2026-02-06,published,,5,20,458
+CRS-000025,Spanish Conversation - Intermediate,Languages,intermediate,8,self_paced,2025-11-29,published,,5,20,486
+CRS-000026,Visual Communication - Beginner,Design,beginner,8,instructor_led,2026-03-16,published,,3,12,254
+CRS-000027,Prototyping - Beginner,Design,beginner,10,self_paced,2026-04-26,published,,4,15,351
+CRS-000028,Mandarin Basics - Intermediate,Languages,intermediate,6,self_paced,2025-10-13,published,,3,11,184
+CRS-000029,Nutrition Science - Intermediate,Health,intermediate,4,instructor_led,2026-03-20,published,,3,12,227
+CRS-000030,Design Systems - Beginner,Design,beginner,6,instructor_led,2026-03-14,published,,3,10,248
+CRS-000031,Interface Design - Intermediate,Design,intermediate,4,self_paced,2026-02-18,published,,2,7,169
+CRS-000032,Corporate Finance - Advanced,Finance,advanced,12,self_paced,2026-02-23,published,,6,19,349
+CRS-000033,Clinical Informatics - Beginner,Health,beginner,8,instructor_led,2026-06-25,published,,4,18,291
+CRS-000034,Nutrition Science - Beginner,Health,beginner,6,instructor_led,2026-03-01,published,,3,15,483
+CRS-000035,Clinical Informatics - Intermediate,Health,intermediate,10,instructor_led,2026-07-10,published,,4,14,381
+CRS-000036,Biostatistics - Advanced,Health,advanced,10,self_paced,2026-02-28,published,,5,22,411
+CRS-000037,Risk Management - Intermediate,Finance,intermediate,8,instructor_led,2026-01-29,published,,5,17,378
+CRS-000038,Spanish Conversation - Intermediate,Languages,intermediate,6,instructor_led,2026-01-24,published,,2,7,175
+CRS-000039,Software Testing - Advanced,Software Engineering,advanced,8,self_paced,2026-08-09,published,,5,23,447
+CRS-000040,Visual Communication - Beginner,Design,beginner,4,self_paced,2026-03-19,published,,2,6,172

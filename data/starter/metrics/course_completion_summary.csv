@@ -1,0 +1,41 @@
+course_id,title,category,level,duration_weeks,cohorts,enrollments,closed_enrollments,completed,withdrawn,completion_rate
+CRS-000001,Marketing Analytics - Advanced,Business,advanced,8,4,130,38.0,6.0,7.0,0.1579
+CRS-000002,Marketing Analytics - Beginner,Business,beginner,8,8,74,39.0,14.0,7.0,0.359
+CRS-000003,Biostatistics - Beginner,Health,beginner,10,3,243,79.0,20.0,11.0,0.2532
+CRS-000004,Accessibility - Intermediate,Design,intermediate,10,6,87,43.0,13.0,7.0,0.3023
+CRS-000005,Linear Algebra - Beginner,Mathematics,beginner,10,3,88,0.0,0.0,0.0,
+CRS-000006,Mandarin Basics - Intermediate,Languages,intermediate,6,6,89,47.0,11.0,9.0,0.234
+CRS-000007,Technical Writing - Intermediate,Languages,intermediate,8,3,74,30.0,3.0,3.0,0.1
+CRS-000008,Fintech Overview - Beginner,Finance,beginner,8,6,119,33.0,9.0,8.0,0.2727
+CRS-000009,Calculus Review - Intermediate,Mathematics,intermediate,8,4,82,0.0,0.0,0.0,
+CRS-000010,Fintech Overview - Advanced,Finance,advanced,8,6,86,73.0,19.0,11.0,0.2603
+CRS-000011,Mandarin Basics - Intermediate,Languages,intermediate,10,7,88,51.0,17.0,11.0,0.3333
+CRS-000012,Machine Learning - Beginner,Data Science,beginner,4,5,67,67.0,20.0,15.0,0.2985
+CRS-000013,Clinical Informatics - Beginner,Health,beginner,4,3,400,400.0,97.0,76.0,0.2425
+CRS-000014,Spanish Conversation - Intermediate,Languages,intermediate,12,6,95,28.0,7.0,7.0,0.25
+CRS-000015,Visual Communication - Advanced,Design,advanced,8,6,86,63.0,7.0,12.0,0.1111
+CRS-000016,Public Health Basics - Beginner,Health,beginner,10,8,92,50.0,19.0,3.0,0.38
+CRS-000017,Biostatistics - Advanced,Health,advanced,6,4,88,0.0,0.0,0.0,
+CRS-000018,Accounting Basics - Intermediate,Finance,intermediate,8,7,72,0.0,0.0,0.0,
+CRS-000019,Mandarin Basics - Beginner,Languages,beginner,10,5,112,66.0,19.0,9.0,0.2879
+CRS-000020,Software Testing - Beginner,Software Engineering,beginner,10,4,92,44.0,17.0,5.0,0.3864
+CRS-000021,Optimisation - Intermediate,Mathematics,intermediate,8,6,140,87.0,16.0,9.0,0.1839
+CRS-000022,Public Health Basics - Beginner,Health,beginner,8,5,86,40.0,15.0,7.0,0.375
+CRS-000023,Machine Learning - Advanced,Data Science,advanced,6,7,131,51.0,11.0,7.0,0.2157
+CRS-000024,Clinical Informatics - Advanced,Health,advanced,8,4,111,30.0,4.0,9.0,0.1333
+CRS-000025,Spanish Conversation - Intermediate,Languages,intermediate,8,7,187,89.0,6.0,24.0,0.0674
+CRS-000026,Visual Communication - Beginner,Design,beginner,8,8,156,67.0,24.0,11.0,0.3582
+CRS-000027,Prototyping - Beginner,Design,beginner,10,8,74,26.0,9.0,5.0,0.3462
+CRS-000028,Mandarin Basics - Intermediate,Languages,intermediate,6,4,229,168.0,41.0,30.0,0.244
+CRS-000029,Nutrition Science - Intermediate,Health,intermediate,4,3,188,0.0,0.0,0.0,
+CRS-000030,Design Systems - Beginner,Design,beginner,6,7,70,42.0,16.0,11.0,0.381
+CRS-000031,Interface Design - Intermediate,Design,intermediate,4,5,125,55.0,14.0,13.0,0.2545
+CRS-000032,Corporate Finance - Advanced,Finance,advanced,12,7,75,21.0,5.0,3.0,0.2381
+CRS-000033,Clinical Informatics - Beginner,Health,beginner,8,8,111,61.0,17.0,15.0,0.2787
+CRS-000034,Nutrition Science - Beginner,Health,beginner,6,4,171,85.0,20.0,11.0,0.2353
+CRS-000035,Clinical Informatics - Intermediate,Health,intermediate,10,7,161,0.0,0.0,0.0,
+CRS-000036,Biostatistics - Advanced,Health,advanced,10,3,83,45.0,7.0,7.0,0.1556
+CRS-000037,Risk Management - Intermediate,Finance,intermediate,8,8,109,52.0,9.0,7.0,0.1731
+CRS-000038,Spanish Conversation - Intermediate,Languages,intermediate,6,8,69,51.0,14.0,10.0,0.2745
+CRS-000039,Software Testing - Advanced,Software Engineering,advanced,8,4,155,0.0,0.0,0.0,
+CRS-000040,Visual Communication - Beginner,Design,beginner,4,6,305,248.0,79.0,48.0,0.3185
